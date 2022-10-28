@@ -96,10 +96,10 @@ header ul li{
 }
 
 #food{
-  width: 50%;
+  width: 100%;
   bottom: 10%;
   margin-left: -25%;
-  left: 50%;
+  left: 65%;
   position: absolute;
   opacity: 0;
 }
