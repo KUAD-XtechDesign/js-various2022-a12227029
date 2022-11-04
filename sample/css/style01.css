@@ -57,13 +57,28 @@ header ul li{
 }
 
 #back{
-  background-image: url(../images/spaceback.png);
-  background-size: cover;
-  background-position: center 100px;
-  top: 0;
-  top:90%;
-  transition: 2s all;
-}
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ccc;
+    background-image: url(https://www.pngfind.com/pngs/b/692-6924948_mario-png.png);
+    background-size: 200px auto;
+    animation-name: backmove;
+    animation-timing-function: linear;
+    animation-iteration-count:infinite;
+    animation-duration:3s;
+    
+  }
+  
+  @keyframes backmove{
+    0%{
+      background-position-x: 0px;
+    }
+    100%{
+      background-position-x: -200px;
+    }
+  }
 
 #back.anime{
   top: 0%;
