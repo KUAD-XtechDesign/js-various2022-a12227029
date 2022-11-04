@@ -337,11 +337,11 @@ header ul li{
   display: flex;
   z-index: 101;
   background-color: #000;
-  width: 100%;
+  width: 5%;
   height: 100%;
   color: #fff;
   font-family: serif;
-  font-size: 20px;
+  font-size: 15px;
   align-items: center;
   justify-content: center;
   top: 0;
