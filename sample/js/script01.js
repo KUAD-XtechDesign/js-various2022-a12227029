@@ -34,3 +34,4 @@ $(function(){
   }
 
 })
+document.querySelector("body > div.frame > div > a > svg > polygon:nth-child(1)")
