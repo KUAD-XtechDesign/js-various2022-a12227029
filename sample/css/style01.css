@@ -5,7 +5,7 @@ html,body,#contents,.wrapper,#back{
   padding: 0;
   width: 100%;
   height: 100%;
-}
+} 
 
 * {
   position: relative;
@@ -31,7 +31,7 @@ svg {
 /*Paper Plane: Container*/
 .plane-container {
   width: 200px;
-  margin: 0px auto;
+  margin: 550px;
   z-index: 3;
 }
 /*Paper Plane: Image*/
@@ -121,7 +121,7 @@ svg {
 
 .cloud {
   position: absolute;
-  top: 20%;
+  top: 30%;
   width: 300px;
   right: 0;
   opacity: 1;
@@ -300,13 +300,17 @@ header ul li{
   right: 10px;
 }
 
-
+#pointer{
+  cursor: url('../images/gesupenn.png.gif'),50 50 auto;
+  }
+  
 #car{
   position: absolute;
-  bottom:100px;
+  width: 250%;
+  bottom: 100px;
   max-width: 40%;
-  left: -250px;
-  width: 250px;
+  left: -250%;
+  width: 250%;
   transition: 0.6s all;
 }
 
@@ -315,9 +319,9 @@ header ul li{
 }
 
 #food{
-  width: 100%;
+  width: 50%;
   bottom: 10%;
-  margin-left: -25%;
+  margin-left: -35%;
   left: 65%;
   position: absolute;
   opacity: 0;
@@ -331,17 +335,31 @@ header ul li{
   opacity: 1;
 }
 
-
+.video {
+  position: relative;
+  height: 0%;
+  padding: 30px 0 56.25%;
+  margin-left: 50%;
+  overflow: hidden;
+  }
+  
+  .video iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  }
 #intro{
   position: fixed;
   display: flex;
   z-index: 101;
   background-color: #000;
-  width: 5%;
-  height: 100%;
+  width: 110%;
+  height: 110%;
   color: #fff;
   font-family: serif;
-  font-size: 15px;
+  font-size: 82px;
   align-items: center;
   justify-content: center;
   top: 0;
